@@ -1,0 +1,92 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Production builds
+build/
+dist/
+out/
+target/
+*.jar
+*.war
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# Temporary folders
+tmp/
+temp/
+
+# Generated files
+ops-aws-gentle-river/build/
+ops-aws-gentle-river/dist/
+ops-aws-gentle-river/target/
+ops-aws-gentle-river/.env*
+ops-aws-gentle-river/node_modules/
+backend-java-bright-rainbow/build/
+backend-java-bright-rainbow/dist/
+backend-java-bright-rainbow/target/
+backend-java-bright-rainbow/.env*
+backend-java-bright-rainbow/node_modules/
+client-react-pure-twilight/build/
+client-react-pure-twilight/dist/
+client-react-pure-twilight/target/
+client-react-pure-twilight/.env*
+client-react-pure-twilight/node_modules/
+docs-readme-quick-cliff/build/
+docs-readme-quick-cliff/dist/
+docs-readme-quick-cliff/target/
+docs-readme-quick-cliff/.env*
+docs-readme-quick-cliff/node_modules/
+
+# Cloud and deployment
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
